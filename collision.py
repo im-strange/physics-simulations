@@ -14,7 +14,7 @@ FPS = 70
 
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 clock = pygame.time.Clock()
-click_sound = pygame.mixer.Sound('pop-sound.mp3')
+click_sound = pygame.mixer.Sound('sounds/pop-sound.mp3')
 
 def add_text(text, position, size, color):
     font_size = size
